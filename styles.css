@@ -1,0 +1,116 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+img {
+    max-width: 200px;
+}
+
+/* ----------------- */
+
+@font-face {
+  font-family: graceland;
+  src: url(Graceland.otf);
+}
+
+body {
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 14px;
+}
+
+#hero-img {
+    background-image: url(images/cartago.jpeg);
+    background-size: cover;
+    height: 400px;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlighted {
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#invite-1 {
+    background-color: #364417;
+    font-family: graceland;
+    font-size: 45px;
+}
+
+#invite-2 {
+    margin-top: 5px;
+    background-color: #8B9E0B;
+    width: 350px;
+}
+
+#activities-section {
+    margin-top: 35px;
+}
+
+#activities-wrapper {
+    margin-top: 20px;
+    display: flex;
+}
+
+.activity-img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px
+}
+
+#basilica {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+#guide {
+    background-color: #2D65BF;
+    max-width: 400px;
+    display: flex;
+    margin: 60px auto;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    border-bottom: 5px solid #102342;
+    box-shadow: 6px 6px 24px black;
+    
+}
+
+#edgar-img {
+    max-width: 160px;
+}
+
+#guide-text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
